@@ -1,16 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-<defs>
-<pattern id="cHatch" width="16" height="16" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="16" stroke="#3d2c20" stroke-opacity=".08" stroke-width="2"/></pattern>
-</defs>
 <rect width="800" height="600" fill="#d97a4a"/>
-<rect width="800" height="600" fill="url(#cHatch)"/>
-<path d="M260 150c20-30 10-60-10-80M340 140c15-35 0-70-25-90M420 150c22-28 15-62-6-84" fill="none" stroke="#eee6d9" stroke-width="9" stroke-linecap="round" opacity=".75"/>
-<path d="M180 230h300l-30 220c-8 55-232 55-240 0z" fill="#3d2c20"/>
-<path d="M200 250h260l-24 200c-6 45-206 45-212 0z" fill="#7a3d1e"/>
-<ellipse cx="330" cy="255" rx="128" ry="26" fill="#e9c99a"/>
-<ellipse cx="330" cy="255" rx="128" ry="26" fill="none" stroke="#3d2c20" stroke-width="6"/>
-<path d="M480 270c60-10 95 30 80 80s-70 60-105 35" fill="none" stroke="#3d2c20" stroke-width="20" stroke-linecap="round"/>
-<circle cx="140" cy="440" r="8" fill="#eee6d9"/><circle cx="165" cy="470" r="6" fill="#eee6d9"/><circle cx="120" cy="475" r="5" fill="#eee6d9"/>
-<circle cx="560" cy="440" r="8" fill="#eee6d9"/><circle cx="585" cy="465" r="6" fill="#eee6d9"/>
-<text x="55" y="555" font-size="46" font-family="Georgia" fill="#2c2016">Cuban Coffee</text>
+<text x="400" y="380" font-size="320" font-family="Georgia,serif" fill="#3a1c0e" text-anchor="middle">C</text>
+<line x1="90" y1="490" x2="710" y2="490" stroke="#3a1c0e" stroke-width="3"/>
+<text x="55" y="555" font-size="46" font-family="Georgia,serif" fill="#3a1c0e">Cuban Coffee</text>
 </svg>

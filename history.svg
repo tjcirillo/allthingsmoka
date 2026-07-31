@@ -1,18 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-<defs>
-<pattern id="hHatch" width="16" height="16" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="16" stroke="#3d2c20" stroke-opacity=".07" stroke-width="2"/></pattern>
-</defs>
-<rect width="800" height="600" fill="#c98f5f"/>
-<rect width="800" height="600" fill="url(#hHatch)"/>
-<g stroke="#eee6d9" stroke-width="3" opacity=".5">
-<line x1="400" y1="250" x2="400" y2="30"/><line x1="400" y1="250" x2="290" y2="60"/><line x1="400" y1="250" x2="510" y2="60"/><line x1="400" y1="250" x2="190" y2="130"/><line x1="400" y1="250" x2="610" y2="130"/><line x1="400" y1="250" x2="140" y2="240"/><line x1="400" y1="250" x2="660" y2="240"/>
-</g>
-<circle cx="400" cy="250" r="150" fill="#eee6d9" stroke="#3d2c20" stroke-width="10"/>
-<circle cx="400" cy="250" r="122" fill="none" stroke="#3d2c20" stroke-width="4" stroke-dasharray="3 9"/>
-<path d="M355 195h90l-14 40h30l-70 90 12-60h-32z" fill="#3d2c20"/>
-<path d="M180 300c40 60 130 95 220 95s180-35 220-95l15 30c-45 65-135 105-235 105s-190-40-235-105z" fill="#3d2c20"/>
-<rect x="270" y="415" width="260" height="60" fill="#3d2c20"/>
-<path d="M270 415l-35 30 35 30zM530 415l35 30-35 30z" fill="#2c2016"/>
-<text x="400" y="456" font-size="34" font-family="Georgia" fill="#eee6d9" text-anchor="middle" letter-spacing="2">EST. 1933</text>
-<text x="55" y="560" font-size="44" font-family="Georgia" fill="#2c2016">The Story of Moka</text>
+<rect width="800" height="600" fill="#d4b79b"/>
+<text x="400" y="360" font-size="180" font-family="Georgia,serif" fill="#2c2016" text-anchor="middle">1933</text>
+<line x1="90" y1="490" x2="710" y2="490" stroke="#2c2016" stroke-width="3"/>
+<text x="55" y="555" font-size="46" font-family="Georgia,serif" fill="#2c2016">The Story of Moka</text>
 </svg>

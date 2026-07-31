@@ -1,25 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
-<defs>
-<pattern id="mHatch" width="16" height="16" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="16" stroke="#eee6d9" stroke-opacity=".08" stroke-width="2"/></pattern>
-</defs>
-<rect width="800" height="600" fill="#5c4536"/>
-<rect width="800" height="600" fill="url(#mHatch)"/>
-<g transform="translate(330,300) rotate(-22)">
-<path d="M-115 -20h230l-25 245h-180z" fill="#3d2c20" stroke="#1e1610" stroke-width="10"/>
-<path d="M-80 -125h160l55 105h-270z" fill="#4a3122" stroke="#1e1610" stroke-width="10"/>
-<path d="M-45 -190h90l25 65h-140z" fill="#1e1610"/>
-<path d="M90 60h85c80 0 92 120 15 155h-80" fill="none" stroke="#1e1610" stroke-width="26"/>
-</g>
-<path d="M470 230c30 10 55 40 40 75s-70 30-60-5c6-22 30-18 20 5" fill="none" stroke="#9d2f1f" stroke-width="9" stroke-linecap="round" opacity=".9"/>
-<path d="M540 180c22 12 30 42 10 62M580 230c14 16 10 40-8 50" fill="none" stroke="#9d2f1f" stroke-width="9" stroke-linecap="round" opacity=".75"/>
-<g fill="#9d2f1f">
-<circle cx="440" cy="380" r="10"/><circle cx="480" cy="420" r="7"/><circle cx="500" cy="370" r="6"/><circle cx="420" cy="440" r="8"/><circle cx="540" cy="400" r="6"/>
-</g>
-<path d="M390 340c-30 60-30 110 10 130 45 22 90-10 80-55" fill="#9d2f1f" opacity=".9"/>
-<g transform="translate(645,110)">
-<circle r="42" fill="none" stroke="#9d2f1f" stroke-width="10"/>
-<line x1="0" y1="-18" x2="0" y2="10" stroke="#9d2f1f" stroke-width="10" stroke-linecap="round"/>
-<circle cx="0" cy="24" r="6" fill="#9d2f1f"/>
-</g>
-<text x="55" y="555" font-size="44" font-family="Georgia" fill="#eee6d9">Common Mistakes</text>
+<rect width="800" height="600" fill="#9d2f1f"/>
+<text x="400" y="380" font-size="320" font-family="Georgia,serif" fill="#f4e9df" text-anchor="middle">!</text>
+<line x1="90" y1="490" x2="710" y2="490" stroke="#f4e9df" stroke-width="3"/>
+<text x="55" y="555" font-size="46" font-family="Georgia,serif" fill="#f4e9df">Common Mistakes</text>
 </svg>
