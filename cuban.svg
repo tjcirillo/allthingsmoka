@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#d8c4ad"/><path d="M190 205h250l-25 245H220z" fill="#ddd7cd" stroke="#4d382b" stroke-width="14"/><path d="M235 95h160l55 110H180z" fill="#eee7dc" stroke="#4d382b" stroke-width="14"/><path d="M275 35h90l30 60h-150z" fill="#4d382b"/><path d="M420 260h80c85 0 95 125 10 165h-70" fill="none" stroke="#4d382b" stroke-width="26"/><rect x="560" y="290" width="110" height="120" rx="8" fill="#fff8e7" stroke="#4d382b" stroke-width="12"/><path d="M670 320h35v60h-35" fill="none" stroke="#4d382b" stroke-width="12"/><text x="85" y="535" font-size="50" font-family="Georgia" fill="#4d382b">Cuban Coffee</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+<defs>
+<pattern id="cHatch" width="16" height="16" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><line x1="0" y1="0" x2="0" y2="16" stroke="#3d2c20" stroke-opacity=".08" stroke-width="2"/></pattern>
+</defs>
+<rect width="800" height="600" fill="#d97a4a"/>
+<rect width="800" height="600" fill="url(#cHatch)"/>
+<path d="M260 150c20-30 10-60-10-80M340 140c15-35 0-70-25-90M420 150c22-28 15-62-6-84" fill="none" stroke="#eee6d9" stroke-width="9" stroke-linecap="round" opacity=".75"/>
+<path d="M180 230h300l-30 220c-8 55-232 55-240 0z" fill="#3d2c20"/>
+<path d="M200 250h260l-24 200c-6 45-206 45-212 0z" fill="#7a3d1e"/>
+<ellipse cx="330" cy="255" rx="128" ry="26" fill="#e9c99a"/>
+<ellipse cx="330" cy="255" rx="128" ry="26" fill="none" stroke="#3d2c20" stroke-width="6"/>
+<path d="M480 270c60-10 95 30 80 80s-70 60-105 35" fill="none" stroke="#3d2c20" stroke-width="20" stroke-linecap="round"/>
+<circle cx="140" cy="440" r="8" fill="#eee6d9"/><circle cx="165" cy="470" r="6" fill="#eee6d9"/><circle cx="120" cy="475" r="5" fill="#eee6d9"/>
+<circle cx="560" cy="440" r="8" fill="#eee6d9"/><circle cx="585" cy="465" r="6" fill="#eee6d9"/>
+<text x="55" y="555" font-size="46" font-family="Georgia" fill="#2c2016">Cuban Coffee</text>
+</svg>
