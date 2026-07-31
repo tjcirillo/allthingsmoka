@@ -8,75 +8,79 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="edition-bar"><div class="wrap"><span>Independent coffee journal</span><span>July 2026</span></div></div>
-
   <header class="site-header">
-    <div class="wrap masthead-row">
-      <div class="masthead-kicker">Brewing · History · Culture</div>
-      <a class="brand" href="index.html">ALL THINGS MOKA</a>
-      <div class="masthead-kicker masthead-right">By Tom Cirillo</div>
+    <div class="utility wrap"><span>Independent coffee journal</span><span>Issue No. 1 · 2026</span></div>
+    <div class="masthead wrap">
+      <a class="brand" href="index.html">All Things Moka</a>
+      <p>A personal journal about the little pot that changed coffee.</p>
     </div>
-    <div class="wrap tagline">A journal devoted to the little pot that changed coffee.</div>
-    <nav class="nav wrap">
-      <a href="index.html">Home</a><a href="my-moka-journey.html">My Journey</a><a href="brewing-guide.html">Brewing</a><a href="moka-pot-history.html">History</a><a href="about.html">About</a><a href="forum.html">Forum</a><a href="contact.html">Contact</a>
+    <nav class="nav wrap" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="my-moka-journey.html">My Journey</a>
+      <a href="brewing-guide.html">Brewing</a>
+      <a href="moka-pot-history.html">History</a>
+      <a href="about.html">About</a>
+      <a href="forum.html">Forum</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main class="wrap magazine-home">
-    <section class="lead-grid">
-      <article class="lead-story">
-        <a class="lead-image" href="my-moka-journey.html"><img src="hero.svg" alt="Illustrated moka pot"></a>
-        <div class="story-label">Cover Story</div>
-        <h1><a href="my-moka-journey.html">My moka pot journey—from the beginning.</a></h1>
-        <p class="standfirst">The experiments, mistakes, discoveries, and stubborn questions that turned a simple morning ritual into a lasting fascination.</p>
-        <a class="read-link" href="my-moka-journey.html">Read the story →</a>
+  <main class="wrap home">
+    <section class="lead-layout">
+      <article class="lead-copy">
+        <div class="kicker">The opening essay</div>
+        <h1><a href="my-moka-journey.html">How a simple moka pot became a lasting obsession.</a></h1>
+        <p class="deck">A personal account of experiments, mistakes, discoveries, and the stubborn pursuit of a better cup.</p>
+        <a class="text-link" href="my-moka-journey.html">Read the story</a>
       </article>
-
-      <aside class="side-stories">
-        <article class="side-story">
-          <div class="story-label">Technique</div>
-          <h2><a href="brewing-guide.html">A practical guide to fuller, better moka coffee</a></h2>
-          <p>A straightforward method without the internet mythology.</p>
+      <a class="lead-art" href="my-moka-journey.html"><img src="hero.svg" alt="Illustration of a moka pot"></a>
+      <aside class="briefs">
+        <article>
+          <div class="kicker">Technique</div>
+          <h2><a href="brewing-guide.html">A practical guide to fuller moka coffee</a></h2>
+          <p>A straightforward method, without the mythology.</p>
         </article>
-        <article class="side-story image-story">
-          <a href="cuban-coffee.html"><img src="cuban.svg" alt="Cuban coffee"></a>
-          <div class="story-label">Coffee Culture</div>
+        <article>
+          <div class="kicker">Coffee culture</div>
           <h2><a href="cuban-coffee.html">What Cuban coffee really is</a></h2>
-        </article>
-        <article class="side-story">
-          <div class="story-label">From the Editor</div>
-          <h2>Why this journal exists</h2>
-          <p>Useful findings, strong opinions, and honest reporting from one moka obsessive to another.</p>
+          <p>The moka pot, sugar foam, and the ritual around both.</p>
         </article>
       </aside>
     </section>
 
-    <div class="rule-title"><span>Inside This Issue</span></div>
+    <section class="latest">
+      <div class="section-heading"><span>Latest stories</span></div>
+      <div class="story-list">
+        <article class="story story-image">
+          <a href="moka-pot-history.html"><img src="history.svg" alt="Historic moka pot illustration"></a>
+          <div>
+            <div class="kicker">History</div>
+            <h2><a href="moka-pot-history.html">The little pot that changed coffee</a></h2>
+            <p>How a compact Italian brewer became one of the world’s most recognizable domestic objects.</p>
+          </div>
+        </article>
 
-    <section class="feature-row">
-      <article class="feature-story feature-wide">
-        <a href="moka-pot-history.html"><img src="history.svg" alt="Historic moka pot"></a>
-        <div class="story-label">History</div>
-        <h2><a href="moka-pot-history.html">The little pot that changed coffee</a></h2>
-        <p>How an Italian stovetop brewer became one of the world’s most recognizable domestic objects.</p>
-      </article>
-      <article class="feature-story">
-        <a href="brewing-guide.html"><img src="grind.svg" alt="Coffee grounds"></a>
-        <div class="story-label">The Grind</div>
-        <h2><a href="brewing-guide.html">The adjustment that matters more than most people think</a></h2>
-        <p>Why moka grind sits in a narrow and frustrating middle ground.</p>
-      </article>
-      <article class="feature-story text-feature">
-        <div class="story-label">Conversation</div>
-        <h2><a href="forum.html">Your experience belongs here too.</a></h2>
-        <p>Ask a question. Challenge an idea. Share a technique. Tell us what happened in your own kitchen.</p>
-        <a class="read-link" href="forum.html">Enter the forum →</a>
-      </article>
+        <article class="story story-image reverse">
+          <a href="brewing-guide.html"><img src="grind.svg" alt="Coffee grounds illustration"></a>
+          <div>
+            <div class="kicker">The grind</div>
+            <h2><a href="brewing-guide.html">The adjustment that matters more than most people think</a></h2>
+            <p>Moka grind lives in a narrow, frustrating middle ground. Here is how to find it.</p>
+          </div>
+        </article>
+
+        <article class="story story-text">
+          <div class="kicker">Conversation</div>
+          <h2><a href="forum.html">Your experience belongs here too.</a></h2>
+          <p>Ask a question, challenge an idea, share a technique, or tell us what happened in your own kitchen.</p>
+          <a class="text-link" href="forum.html">Enter the forum</a>
+        </article>
+      </div>
     </section>
 
-    <section class="editorial-band">
-      <div class="editorial-title">Notes, finds & arguments</div>
-      <div class="editorial-copy">Not every link deserves your time. All Things Moka selects the articles, videos, products, techniques, and debates that genuinely add something useful.</div>
+    <section class="closing-note">
+      <div class="kicker">Editor’s note</div>
+      <p>All Things Moka is interested in what actually improves the cup: useful techniques, strong opinions, real experiments, and honest reporting.</p>
     </section>
   </main>
 
