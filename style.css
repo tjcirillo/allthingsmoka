@@ -95,4 +95,18 @@ h1,h2,h3,p{margin-top:0}
   .footer-inner{grid-template-columns:1fr;gap:8px}
 }
 
-.mokaminder-intro{font-size:1rem;line-height:1.55;margin:1.15rem 0 1rem;max-width:52rem}.mokaminder-intro a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.mokaminder-intro{font-size:1rem;line-height:1.55;margin:1.15rem 0 1rem;max-width:52rem}.mokaminder-intro a{font-weight:700;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.article-shell>p>a[href*="mokaminder"]{white-space:nowrap}
+
+/* Resource box + article lists */
+.article-shell ul,.article-shell ol{padding-left:22px}
+.article-shell li{margin:0 0 10px}
+.article-shell li strong{color:var(--ink)}
+.resource-box{border:1px solid var(--ink);background:#efe9dd;padding:clamp(20px,4vw,32px);margin:42px 0 12px}
+.resource-box h2{margin-top:0;font-size:26px}
+.resource-box ul{margin:0;padding-left:20px}
+.resource-box li{font-size:16px;line-height:1.55;margin-bottom:10px}
+.resource-box a{text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.resource-box a:hover{color:var(--accent)}
+.article-shell a[target="_blank"]{text-decoration:underline;text-underline-offset:3px}
+.article-shell a[target="_blank"]:hover{color:var(--accent)}
