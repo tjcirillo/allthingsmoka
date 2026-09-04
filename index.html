@@ -7,22 +7,32 @@
 <meta name="description" content="An independent magazine devoted to moka coffee, technique, history and culture.">
 <link rel="stylesheet" href="style.css">
 <style>
-  /* --- Moka Finds dropdown (self-contained; safe to move into style.css later) --- */
-  .nav-dropdown { position: relative; display: inline-block; }
+  /* --- Moka Photos dropdown (self-contained; safe to move into style.css later) --- */
+  .nav-dropdown {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+  }
   .nav-dropdown summary {
     cursor: pointer;
     list-style: none;
-    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    padding: 8px 14px;
     border-radius: 999px;
-    border: 1px solid rgba(0,0,0,0.15);
+    border: 1px solid #b5651d;
     font: inherit;
-    color: inherit;
-    background: rgba(0,0,0,0.03);
+    font-weight: 600;
+    color: #7a3e0f;
+    background: #fdf1e3;
     transition: background 0.15s ease;
   }
   .nav-dropdown summary::-webkit-details-marker { display: none; }
-  .nav-dropdown summary:hover { background: rgba(0,0,0,0.08); }
-  .nav-dropdown[open] summary { background: rgba(0,0,0,0.1); }
+  .nav-dropdown summary::marker { content: ""; }
+  .nav-dropdown summary:hover { background: #fbe4c8; }
+  .nav-dropdown[open] summary { background: #f7d6ac; }
   .nav-dropdown-panel {
     position: absolute;
     top: calc(100% + 8px);
