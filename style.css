@@ -16,7 +16,7 @@ img{display:block;max-width:100%}
 .masthead-top{display:flex;justify-content:space-between;padding:12px 0 10px;border-bottom:1px solid var(--rule);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
 .brand-row{padding:22px 0 18px}
 .brand{display:inline-block;font-size:clamp(34px,5.6vw,72px);font-weight:900;letter-spacing:-.045em;line-height:.9}
-.nav{display:flex;gap:26px;flex-wrap:wrap;padding:12px 0;border-top:1px solid var(--rule);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.nav{display:flex;gap:26px;flex-wrap:wrap;align-items:center;padding:12px 0;border-top:1px solid var(--rule);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .nav a.mokaminder-tab{color:#5c3a21}
 .nav a:hover,.read-link:hover{color:var(--accent)}
 .lead-grid{display:grid;grid-template-columns:minmax(0,2.2fr) minmax(270px,.8fr);gap:34px;padding:38px 0 46px;border-bottom:1px solid var(--ink)}
